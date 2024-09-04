@@ -11,9 +11,8 @@
                     class="bg-cover bg-overlay d-flex align-items-center custom-vh-02"
                     style="background-image: url(images/page/bg.jpg)">
                     <div class="container pt-lg-15 py-8" data-animate="zoomIn">
-                        <p class="text-white fs-md-22 fs-18 font-weight-500 letter-spacing-367 mb-6 text-center text-uppercase">Let
-                            us guide your home</p>
-                        <h2 class="text-white display-2 text-center mb-sm-13 mb-8">Find Your Dream Home</h2>
+                        <p class="text-white fs-md-22 fs-18 font-weight-500 letter-spacing-367 mb-6 text-center text-uppercase">Bonum Consilium Africa Limited</p>
+                        <h2 class="text-white display-2 text-center mb-sm-13 mb-8">Building elegant homes across Africa</h2>
                     </div>
                 </div>
             </div>
@@ -23,7 +22,7 @@
         <div class="container">
             <div class="media d-flex flex-column flex-md-row align-items-md-center py-lg-8 position-relative cusstom-bg-slider-gray no-gutters">
                 <div class="mr-lg-10 mr-md-6 card border-0 col-md-6">
-                    <img src="{{URL::asset('images/about.jpeg')}}" class="card-img" alt="B-CAL">
+                    <img src="{{URL::asset('images/page/bg2.jpeg')}}" class="card-img" alt="B-CAL">
                     <div class="card-img-overlay p-2">
                         <span class="badge mr-2 badge-orange">Featured</span>
                     </div>
