@@ -34,7 +34,7 @@
                     <div class="col-md-6 mb-6 mb-lg-0">
                         <div class="card shadow-2 px-7 pb-6 pt-4 h-100 border-0">
                             <div class="card-body px-0 pt-6 pb-0 text-center">
-                                <p class="card-text px-2">
+                                <p class="card-text px-2 fs-18 fs-md-18">
                                     Collaboration and partnership with key stakeholders in the real sector is of necessity for us in achieving our mandate, we work with established finance institutions to access funding in executing real estate projects thereby making dreams of prospective home owners become a reality.
                                 </p>
                             </div>
@@ -43,7 +43,7 @@
                     <div class="col-md-6 mb-6 mb-lg-0">
                         <div class="card shadow-2 px-7 pb-6 pt-4 h-100 border-0">
                             <div class="card-body px-0 pt-6 pb-0 text-center">
-                                <p class="card-text px-2">
+                                <p class="card-text px-2 fs-18 fs-md-18">
                                     Our designs are unique and we ensure that our projects are delivered within the stipulated period to give you a desired fulfillment.
                                 </p>
                             </div>
@@ -61,7 +61,7 @@
                         <h4 class="card-title fs-18 lh-17 text-dark mb-2">
                             Our Vision
                         </h4>
-                        <p class="card-text px-2">
+                        <p class="card-text px-2 fs-18 fs-md-18">
                             We have a vision to be the forerunner in developing serene, cosy, and elegant housing units for people of different classes.
                         </p>
                     </div>
@@ -71,7 +71,7 @@
                         <h4 class="card-title fs-18 lh-17 text-dark mb-2">
                             Our Mission
                         </h4>
-                        <p class="card-text px-2">
+                        <p class="card-text px-2 fs-18 fs-md-18">
                             Redefining the real estate narrative with the infusion of smart tech and futuristic design.
                         </p>
                     </div>
