@@ -43,7 +43,7 @@
                         </li>
                         <li id="navbar-item-listing" aria-haspopup="true" aria-expanded="false" class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
                             <a class="nav-link p-0" dropdown-toggle href="#" data-toggle="dropdown">
-                                Our Project
+                                Our Projects
                                 <span class="caret"></span>
                             </a>
                             <ul
@@ -95,25 +95,16 @@
                                 <span class="caret"></span>
                             </a>
                         </li>
-                        <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false" class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4 {{ (request()->is('contact')) ? 'active' : '' }}">
-                            <a class="nav-link p-0" href="{{route('contact')}}">
-                                Contact Us
-                                <span class="caret"></span>
-                            </a>
-                        </li>
                     </ul>
                     <div class="d-block d-xl-none">
                         <ul
                             class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
                             <li class="nav-item">
-                                <a class="btn btn-outline-light btn-lg text-white rounded-lg bg-hover-primary border-hover-primary hover-white d-none d-lg-block" href="#">
-                                    Properties
-                                    <img src="{{URL::asset('images/add-listing-icon.png')}}" alt="Properties" class="ml-1 normal-button-icon">
-                                    <img src="{{URL::asset('images/add-listing-icon-primary.png')}}" alt="Properties" class="ml-1 sticky-button-icon">
+                                <a class="btn btn-outline-light btn-lg text-white rounded-lg bg-hover-primary border-hover-primary hover-white d-none d-lg-block" href="{{route('contact')}}">
+                                    Contact Us
                                 </a>
                                 <a class="btn btn-primary btn-lg d-block d-lg-none" href="#">
-                                    Properties
-                                    <img src="{{URL::asset('images/add-listing-icon.png')}}" alt="Add listing" class="ml-1">
+                                    Contact Us
                                 </a>
                             </li>
                         </ul>
@@ -125,13 +116,13 @@
                         <li class="nav-item">
                             <a
                                 class="btn btn-lg text-heading border bg-hover-primary border-hover-primary hover-white d-none d-lg-block"
-                                href="#">
-                                Properties
+                                href="{{route('contact')}}">
+                                Contact Us
                             </a>
                             <a
                                 class="btn btn-primary btn-lg d-block d-lg-none"
-                                href="#">
-                                Properties
+                                href="{{route('contact')}}">
+                                Contact Us
                             </a>
                         </li>
                     </ul>

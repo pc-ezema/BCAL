@@ -14,24 +14,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
-                <h4 class="text-white fs-16 my-4 font-weight-500">Our Project</h4>
-                <ul class="list-group list-group-flush list-group-no-border">
-                    <li class="list-group-item bg-transparent p-0">
-                        <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Lily Court</a>
-                    </li>
-                    <li class="list-group-item bg-transparent p-0">
-                        <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Food Industrial Park, Abeokuta</a>
-                    </li>
-                    <li class="list-group-item bg-transparent p-0">
-                        <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Tede Agri Industrial Park</a>
-                    </li>
-                    <li class="list-group-item bg-transparent p-0">
-                        <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Cliffland Estate, Abuja</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
-                <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
+                <h4 class="text-white fs-16 my-4 font-weight-500">Popular Links</h4>
                 <ul class="list-group list-group-flush list-group-no-border">
                     <li class="list-group-item bg-transparent p-0">
                         <a href="{{route('index')}}" class="text-muted lh-26 font-weight-500 hover-white">Home</a>
@@ -39,6 +22,11 @@
                     <li class="list-group-item bg-transparent p-0">
                         <a href="{{route('about')}}" class="text-muted lh-26 font-weight-500 hover-white">About Us</a>
                     </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
+                <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
+                <ul class="list-group list-group-flush list-group-no-border">
                     <li class="list-group-item bg-transparent p-0">
                         <a href="{{route('gallery')}}" class="text-muted lh-26 font-weight-500 hover-white">Our Gallery</a>
                     </li>

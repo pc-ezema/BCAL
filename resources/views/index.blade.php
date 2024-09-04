@@ -30,13 +30,24 @@
                 </div>
                 <div class="media-body mt-lg-0 pr-lg-9">
                     <h2 class="my-0"><a href="{{route('about')}}" class="fs-26 lh-2 text-dark hover-primary" tabindex="0">BONUM CONSILIUM AFRICA LIMITED</a></h2>
-                    <p class="mb-2 fs-16 font-weight-500 text-gray-light lh-2">B-CAL is a Property Development Company committed to providing elegant homes to individuals, institutions and corporate entities.</p>
+                    <p class="mb-2 ml-0 pr-lg-3">B-CAL is a Property Development Company committed to providing elegant homes to individuals, institutions and corporate entities.</p>
                     <p class="mb-2 ml-0 pr-lg-3">Our vision is to bridge the huge gap in housing deficit in Nigeria using modern technology with sophisticated designs to achieve functional homes.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mb-6" data-animated-id="4">
+    <section data-animated-id="5" class="mb-6">
+        <div class="bg-single-image pt-lg-13 pb-lg-12 py-11 bg-secondary">
+            <div class="container container-xxl">
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class="col-lg-6 pl-xl-8 fadeInRight animated" data-animate="fadeInRight">
+                        <h2 class="text-white lh-1625">Our designs are unique and we ensure that our projects are delivered within the stipulated period to give you a desired fulfillment.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="mb-6" data-animated-id="4">
         <div class="container">
             <h2 class="text-dark text-center lh-1625">
                 Our Gallery
@@ -65,7 +76,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 <style>
 
