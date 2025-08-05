@@ -97,10 +97,11 @@
             <div class="container position-relative z-index-2 text-center">
                 <div class="mxw-751">
                     <h1
-                        class="text-white fs-30 fs-md-42 lh-15 font-weight-normal mt-4 mb-10"
+                        class="text-white fs-30 fs-md-42 lh-15 font-weight-normal mt-4"
                         data-animate="fadeInRight">
-                        Book Now
+                        Bonum Homes
                     </h1>
+                    <p style="color: #fff;">Bonum Homes is a Property Development Company committed to providing elegant homes to individuals, institutions, and corporate entities.</p>
                 </div>
             </div>
         </section>
@@ -109,11 +110,6 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="text-center mb-4">
-                            <h2>Bonum Homes</h2>
-                            <p>Bonum Homes is a Property Development Company committed to providing elegant homes to individuals, institutions, and corporate entities.</p>
-                        </div>
-
                         <div id="formAlert" class="alert mt-3 d-none"></div>
                         <div class="card shadow-sm">
                             <div class="card-body">
