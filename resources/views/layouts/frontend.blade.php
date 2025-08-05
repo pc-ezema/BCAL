@@ -43,9 +43,33 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K5N8KXQD');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+     <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5N8KXQD"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header -->
     @includeIf('layouts.header')
     <!-- Header Ends -->
@@ -58,7 +82,6 @@
     <!-- Footer -->
     @includeIf('layouts.footer')
     <!-- Footer Ends -->
-
     <script src="{{URL::asset('vendors/jquery.min.js')}}"></script>
     <script src="{{URL::asset('vendors/jquery-ui/jquery-ui.min.js')}}"></script>
     <script src="{{URL::asset('vendors/bootstrap/bootstrap.bundle.js')}}"></script>
@@ -299,4 +322,5 @@
         <a href="#" class="gtf-back-to-top bg-white text-primary hover-white bg-hover-primary shadow p-0 w-52px h-52 rounded-circle fs-20 d-flex align-items-center justify-content-center" title="Back To Top"><i class="fal fa-arrow-up"></i></a>
     </div>
 </body>
+
 </html>

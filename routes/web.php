@@ -19,3 +19,5 @@ Route::get('/about', [Controller::class, 'about'])->name('about');
 Route::get('/contact', [Controller::class, 'contact'])->name('contact');
 Route::get('/faqs', [Controller::class, 'faqs'])->name('faqs');
 Route::get('/gallery', [Controller::class, 'gallery'])->name('gallery');
+Route::get('/book-now', [Controller::class, 'bookNow'])->name('bookNow');
+Route::post('/store/bookings', [Controller::class, 'store'])->name('applicants.store');
